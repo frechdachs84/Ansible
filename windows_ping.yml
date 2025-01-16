@@ -1,0 +1,8 @@
+---
+- name: Test Ping
+  hosts: all
+  becone: false
+  gather_facts: false
+  tasks:
+    - name: Pingtest
+      win_ping:
