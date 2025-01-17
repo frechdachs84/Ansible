@@ -1,8 +1,8 @@
 ---
-- name: Test Ping
+- name: ping test für windows clients
   hosts: all
-  becone: false
+  become: false
   gather_facts: false
   tasks:
-    - name: Pingtest
+    - name: pingtest
       win_ping:
